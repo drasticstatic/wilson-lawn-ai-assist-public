@@ -1,0 +1,14 @@
+{
+  "_note": "Secondary filter — see .github/workflows/sync-public.yml for the authoritative protection layer. Run locally with: npx gitexporter gitexporter.config.json",
+  "forceReCreateRepo": true,
+  "sourceRepoPath": ".",
+  "targetRepoPath": "../wilson-lawn-ai-assist-public",
+  "ignoredPaths": [
+    "CLAUDE.md",
+    ".augmentignore",
+    ".gitignore",
+    ".github/",
+    ".claude/",
+    "gitexporter.config.json"
+  ]
+}
