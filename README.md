@@ -1,73 +1,66 @@
-# Welcome to your Lovable project
+# Wilson's Lawn Maintenance AI Assistant
 
-## Project info
+> **An AI-powered voice and chat assistant for lawn care scheduling, quoting, and customer communication — built with Vite, React, TypeScript, and Tailwind CSS.**
 
-**URL**: https://lovable.dev/projects/70b34eb1-2cf6-45b3-9783-075fb5efa0f6
+[![License: MIT](https://img.shields.io/badge/license-MIT-lightgrey?style=flat-square)](LICENSE)
+[![Built with Lovable](https://img.shields.io/badge/built%20with-Lovable-FF5BBD?style=flat-square)](https://lovable.dev/projects/70b34eb1-2cf6-45b3-9783-075fb5efa0f6)
+[![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)](https://vitejs.dev)
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🌐 Live Previews
 
-**Use Lovable**
+| Surface | Link |
+|---------|------|
+| **GoHighLevel site** (original build) | [Preview ↗](https://app.gohighlevel.com/v2/preview/4eNJavgKGMm6OpZoVw7k) |
+| **Lovable preview** | [Preview ↗](https://preview--wilson-lawn-ai-assist.lovable.app) |
+| **Public repo preview** | [drasticstatic/wilson-lawn-ai-assist-public ↗](https://github.com/drasticstatic/wilson-lawn-ai-assist-public) |
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/70b34eb1-2cf6-45b3-9783-075fb5efa0f6) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 📖 About
 
-**Use your preferred IDE**
+This project started as a GoHighLevel site build, then moved to [Lovable](https://lovable.dev) for a React/Vite iteration. It serves as both a functional lawn-care assistant prototype and a reusable AI-agent + voice-interface template for small service businesses.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🛠 Tech Stack
 
-Follow these steps:
+- **Vite** — build tool
+- **TypeScript + React** — component framework
+- **Tailwind CSS** — utility-first styling
+- **shadcn/ui** — component library
+- **ElevenLabs** (`@11labs/react`) — voice agent (API key entered at runtime)
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🚀 Getting Started
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
+git clone https://github.com/drasticstatic/wilson-lawn-ai-assist.git
+cd wilson-lawn-ai-assist
+npm install
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+> **ElevenLabs voice:** Enter your API key in the app UI at runtime — it is never hardcoded or committed.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## ✏️ Editing
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+**Via Lovable:** [Open project ↗](https://lovable.dev/projects/70b34eb1-2cf6-45b3-9783-075pb5efa0f6) — changes auto-commit to this repo.
 
-## What technologies are used for this project?
+**Via local IDE:** Clone, edit, push — changes reflect in Lovable.
 
-This project is built with:
+**Via GitHub:** Edit files directly in the browser.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## 🔒 Security
 
-Simply open [Lovable](https://lovable.dev/projects/70b34eb1-2cf6-45b3-9783-075fb5efa0f6) and click on Share -> Publish.
+See [SECURITY.md](SECURITY.md) for vulnerability reporting. No real API keys are stored in this repo — voice credentials are entered at runtime only.
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+*Maintained by [drasticstatic](https://github.com/drasticstatic)*
