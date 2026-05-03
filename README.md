@@ -2,9 +2,9 @@
 
 > **An AI-powered voice and chat assistant for lawn care scheduling, quoting, and customer communication — built with Vite, React, TypeScript, and Tailwind CSS.**
 
-[![License: MIT](https://img.shields.io/badge/license-MIT-lightgrey?style=flat-square)](LICENSE)
-[![Built with Lovable](https://img.shields.io/badge/built%20with-Lovable-FF5BBD?style=flat-square)](https://lovable.dev/projects/70b34eb1-2cf6-45b3-9783-075fb5efa0f6)
-[![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)](https://vitejs.dev)
+[![License: MIT](https://img.shields.io/badge/license-MIT-lightgrey?style=flat)](https://github.com/drasticstatic/.github)
+[![Built with Lovable](https://img.shields.io/badge/built%20with-Lovable-FF5BBD?style=flat)](https://lovable.dev/projects/70b34eb1-2cf6-45b3-9783-075fb5efa0f6)
+[![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white)](https://vitejs.dev)
 
 ---
 
