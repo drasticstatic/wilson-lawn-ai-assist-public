@@ -5,6 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-lightgrey?style=flat)](https://github.com/drasticstatic/.github)
 [![Built with Lovable](https://img.shields.io/badge/built%20with-Lovable-FF5BBD?style=flat)](https://lovable.dev/projects/70b34eb1-2cf6-45b3-9783-075fb5efa0f6)
 [![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white)](https://vitejs.dev)
+[![Status](https://img.shields.io/badge/Status-%F0%9F%94%A7%20In%20Development-orange)](https://code.claude.com/docs/en/cli-reference)
 
 ---
 
