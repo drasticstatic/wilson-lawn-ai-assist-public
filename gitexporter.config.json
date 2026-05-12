@@ -5,6 +5,8 @@
   "targetRepoPath": "../wilson-lawn-ai-assist-public",
   "ignoredPaths": [
     "CLAUDE.md",
+    "AGENTS.md",
+    "AGENTS.override.md",
     ".augmentignore",
     ".gitignore",
     ".github/",
