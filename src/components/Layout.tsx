@@ -1,6 +1,7 @@
 import Navigation from "./Navigation";
 import Footer from "./Footer";
 import ChatWidget from "./ChatWidget";
+import WelcomeModal from "./WelcomeModal";
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -15,6 +16,7 @@ const Layout = ({ children }: LayoutProps) => {
       </main>
       <Footer />
       <ChatWidget />
+      <WelcomeModal />
     </div>
   );
 };
