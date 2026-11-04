@@ -37,7 +37,7 @@ const AboutPage = () => {
 
   const teamMembers = [
     {
-      name: "Mike Wilson",
+      name: "Jeffrey Wilson",
       role: "Owner & Founder", 
       description: "With over 15 years in lawn care, Mike founded Wilson's Lawn Maintenance to provide reliable, professional service to homeowners throughout the metro area."
     },

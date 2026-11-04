@@ -58,9 +58,9 @@ const ContactPage = () => {
     {
       icon: Mail,
       title: "Email", 
-      details: "info@wilsonslawn.com",
+      details: "Wilsonj84321@gmail.com",
       description: "Send us a detailed message",
-      action: "mailto:info@wilsonslawn.com"
+      action: "mailto:Wilsonj84321@gmail.com"
     },
     {
       icon: MapPin,

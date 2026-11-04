@@ -396,9 +396,9 @@ const QuotePage = () => {
                       <Phone className="h-4 w-4" />
                       <span>(555) 123-LAWN</span>
                     </a>
-                    <a href="mailto:info@wilsonslawn.com" className="flex items-center space-x-2 text-sm hover:underline">
+                    <a href="mailto:Wilsonj84321@gmail.com" className="flex items-center space-x-2 text-sm hover:underline">
                       <Mail className="h-4 w-4" />
-                      <span>info@wilsonslawn.com</span>
+                      <span>Wilsonj84321@gmail.com</span>
                     </a>
                   </div>
                 </CardContent>
