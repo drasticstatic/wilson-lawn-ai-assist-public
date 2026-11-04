@@ -13,7 +13,7 @@ import { Button } from "@/components/ui/button";
 // The real business contact, as Christopher gave it. Everything else on this prototype (footer, contact
 // page) still wears Lovable's sample details until version 03 replaces them; this modal is the one place
 // a visitor can trust in the meantime.
-export const BUSINESS = {
+const BUSINESS = {
   owner: "Jeffrey Wilson",
   name: "Wilson's Lawn Maintenance",
   phoneDisplay: "(717) 825-8432",
