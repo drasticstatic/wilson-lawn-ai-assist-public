@@ -1,0 +1,3 @@
+approved by Christopher Wilson | 2026-11-04
+# folders whose pictures and fonts this lane publishes on purpose (one per line; a listed folder covers its subfolders)
+public

@@ -186,7 +186,7 @@ const QuotePage = () => {
                         value={formData.address}
                         onChange={handleChange}
                         required
-                        placeholder="123 Main Street, City, State"
+                        placeholder="Your street address"
                       />
                     </div>
 
