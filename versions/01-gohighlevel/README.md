@@ -7,7 +7,7 @@
 - **What:** the original Wilson's Lawn Maintenance website, built on GoHighLevel in 2024, copied here page by page so the next site can be built from it rather than from memory.
 - **Source:** <https://app.gohighlevel.com/v2/preview/4eNJavgKGMm6OpZoVw7k> (redirects to `sites.leadconnectorhq.com/preview/<id>`).
 - **When:** 2026-11-04, by `scripts/capture-ghl.sh --images --scan` (a plain HTTPS fetch; the preview is server-rendered). The exact hashes are in [`CAPTURE.md`](./CAPTURE.md).
-- **Read first:** `pages/<id>.txt` is each page as a visitor reads it; `pages/<id>.html` is the page exactly as served; `assets/ghl/` holds the 30 pictures.
+- **Read first:** `pages/<id>.txt` is each page as a visitor reads it; `pages/<id>.html` is the page exactly as served; `assets/ghl/` holds 29 of the 30 pictures.
 
 ## <img src="../../assets/icons/file-text.svg" width="24" height="24" alt=""> What was captured
 
@@ -21,6 +21,7 @@ Each page is kept three ways: `.html` as served, `.txt` as visible text, `.meta`
 
 ## <img src="../../assets/icons/triangle-alert.svg" width="24" height="24" alt=""> What is missing
 
+- **One testimonial card, on purpose.** A family member under 18 was named and pictured on the 2024 page. The name, the quote and the picture are out of this copy, so this page and `index.html` differ from their sha256 in the `.meta` record. Everything else is as served.
 - **The three forms.** GoHighLevel draws the forms with JavaScript after the page loads: the contact section on the home page and the two sign-ups (newsletter, consultation call) on the consultation page. The served HTML holds only their scaffolding, so field labels, placeholder text, validation and button wiring are not here. Capture them once with a browser (Claude in Chrome, or Firecrawl after its credits reset on 2026-11-12) and keep that beside this folder. Tracked in [`PENDING-TASKS.md`](../../PENDING-TASKS.md).
 - **Nothing dynamic.** No chat widget state, no analytics, no GoHighLevel back end. The capture is the public face only.
 
