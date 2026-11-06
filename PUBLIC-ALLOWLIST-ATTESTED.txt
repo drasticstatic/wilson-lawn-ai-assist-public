@@ -1,3 +1,4 @@
 # PUBLIC-ALLOWLIST-ATTESTED.txt: files a person opened and read before the public lane publishes them (scripts/scan-public-lane.sh).
 # Jeff's business contact address in the welcome modal, public on purpose.
 src/components/WelcomeModal.tsx | Christopher Wilson | 2026-11-06 | opened and read
+src/pages/QuotePage.tsx | Christopher Wilson | 2026-11-06 | opened and read
